@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration:dashed;
+    padding:5px;
+    background-color: #8679a5;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: #a797ce;
+}
+
+/*Quando já foi visitada*/
+
+body{
+    background-color: rgb(250, 230, 255);
+}
+nav{
+    background-color: #211e37;
+    padding: 10px;
+}
+header{
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    background-color: #8679a5;
+    padding: 10px;
+}
+main{
+    padding: 5px;
+    
+}
+.inicio-html{
+    
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+  }
+  .body-inicio{
+    color: white;
+    background-size: cover;
+    background-image: url(imagens/milad-fakurian-nY14Fs8pxT8-unsplash.jpg)
+    
+    
+    
+  }
