@@ -6,6 +6,12 @@
     text-align: center;
     box-sizing: border-box;
 }
+
+.a_index{
+    background-color: white;
+    /* ele muda a opacidade do a */
+    opacity: 0.5;
+}
 a{
     color: black;
     text-decoration:dashed;
@@ -17,15 +23,24 @@ a:hover{
     background-color: #a797ce;
 }
 
-/*Quando já foi visitada*/
-
-body{
-    background-color: rgb(250, 230, 255);
-}
 nav{
-    background-color: #211e37;
     padding: 10px;
 }
+.nav_musicas{
+    background-color: green;
+    
+}
+.nav_livros{
+    background-color: #211e37;
+    
+}
+.nav_filmes{
+    background-color: rgb(117, 33, 33);
+}
+
+
+
+
 header{
     font-family: "Pacifico", cursive;
     font-size: 25px;
@@ -50,8 +65,26 @@ main{
   .body-inicio{
     color: white;
     background-size: cover;
-    background-image: url(imagens/milad-fakurian-nY14Fs8pxT8-unsplash.jpg)
+    background-image: url(imagens/milad-fakurian-nY14Fs8pxT8-unsplash.jpg) 
+  }
+  li{
+    color: rgb(70, 48, 196);
+    font-size: px;
     
-    
-    
+  }
+  .parallax_biblioteca{
+    background-image: url(imagens/360_F_340078556_YD52qpLaiTbO5E0OF90FuOaAq3sZr8yF.jpg);
+    /* */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .header_musica{
+    background-color: rgb(30, 215, 96);
+    color: rgb(25 20 20);
+  }
+  .header_filmes{
+    background-color: rgb(229, 9, 20);
+    color: white;
   }
