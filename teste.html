@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Div no Botão de Outra Div</title>
+<style>
+    .container {
+        position: relative; /* Para que a posição absoluta da div interna seja relativa a esta */
+        width: 300px;
+        height: 200px;
+        background-color: lightblue;
+    }
+
+    .inner-div {
+        position: absolute; /* Para que a div interna possa ser posicionada de forma absoluta */
+        bottom: 0; /* Coloca a div interna na parte inferior */
+        width: 100%;
+        background-color: lightcoral;
+        text-align: center; /* Opcional: centraliza o conteúdo dentro da div interna */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <p>Conteúdo da Div Exterior</p>
+    <div class="inner-div">
+        <p>Conteúdo da Div Interior</p>
+    </div>
+</div>
+
+</body>
+</html>
