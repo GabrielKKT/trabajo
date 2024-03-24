@@ -13,17 +13,21 @@ header{
     background-color: #D9D9D9;
     padding: 30px;
 }
+ol{
+  padding: 0;
+}
 
 
 a{
     color: rgb(0, 0, 0);
     text-decoration:none;
     padding:5px;
-    background-color: #ffffff;
+    background-color: #dad6d6;
     border-radius: 20px;
 }
 a:hover{
-  background-color: #a797ce;
+  background-color: black;
+  color: #ffffff;
 }
 
 nav{
@@ -38,6 +42,34 @@ nav{
 
 /*--------------------------------------*/
 
+/*index--------------------------------*/
+.nome_index{
+  font-size: 50px;
+}
+.a_index{
+  font-size: 40px;
+  border-radius: 50px;
+  opacity: 0.6;
+  
+}
+.a_index:hover{
+
+}
+.body-inicio{
+color: white;
+width: 100%;
+background-size: cover;
+background-image: url(imagens/teste.jpg) 
+}
+.inicio-html{
+  
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*--------------------------------------*/
 
 /*Spoty---------------------------------*/
 
@@ -114,10 +146,12 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
     background-position: center;
     background-attachment: fixed;
   }
+
+  .main_livro{
+    padding: 4%;
+  }
   .all_livro{
     display: flex;
-    margin-bottom: 20px;
-    flex-wrap: nowrap;
   }
   .container_img_livro{
     display: flex;
@@ -126,31 +160,27 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
   }
   .img_livro{
     width: 200px;
-    max-width: 200px;
-    min-width: 20px;
   }
-  
-  
   .container_info_livro{
     position: relative;
     padding: 10px;
-    
   }
   .header_info_livro li{
     list-style: number inside;
   }
   .main_info_livro{
     padding-top: 10px;
+    padding-bottom: 40px;
   }
   
   .footer_info_livro a{
     margin: 10px;
-    
     color: white;
     background-color: rgb(40,40,40);
     border-bottom: 0px;
   }
   .footer_info_livro{
+    
     position: absolute; 
         bottom: 10px;
         width: 100%;
@@ -171,73 +201,32 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
 
 
   /*Eu---------------------------------*/
+
+  .img_gabriel{
+    width: 45%;
+    max-width: 20%;
+  }
  
   .body_eu{
-    
-      height: 100%;
-      overflow-y: hidden;
-      overflow-x: hidden;
-      
+    overflow-y: hidden;
+    width: 100%;
   }
   .main_eu{
     display: flex;
     width: 100%;
   }
-  .texto_eu{
-   
+  .txt_eu{
+   font-size: 150%;
   }
  
-  .img_gabriel{
-    width: 45%;
-    max-width: 20%;
-    
+  .container_texto_eu{
+    width: 100%;
   }
-
-*/
-.container_texto_eu{
-  
-  width: 55%;
-  font-size: 30px;
-  
-}
+ 
   
 
 
   /*--------------------------------------*/
-
-
-  /*index--------------------------------*/
-  .a_index{
-    background-color: white;
-    /* ele muda a opacidade do a */
-    opacity: 0.5;
-}
-  .body-inicio{
-  color: white;
-  background-size: cover;
-  background-image: url(imagens/teste.jpg) 
-}
-.inicio-html{
-    
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  /*--------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -255,60 +244,40 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
 }
  
   .all_serie{
-    margin-bottom: 10px;
+    padding: 1%;
     display: flex;
-    
+    border-radius: 10px;
+    background-color: rgb(231, 226, 226);
   }
-  .container_img_serie{
-    min-width: 200px;
-    max-width: 500px;
-    width: 100%;
+  .space_all{
+    padding: 1%;
+  }
+  .container_trailer_serie{
+   
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .img_serie{
+  .trailer_serie{
     
-    width: 100%;
     margin-right: 20px;
     border-radius: 20px;
+    
   }
   .info_serie{
-    width: 90%;
+    padding: 10px;
     font-size: 100%;
-
   }
-  
-  ol{
-    padding: 0;
+  .titulo_serie{
+    align-items: center;
+    width: 100%;
   }
-
   .titulo_serie li{
     list-style: number inside;
   }
   .sobre_serie{
 
   }
-  .container_a_netflix{
-    max-width: 100px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .container_a_netflix a img{
-    
-    width: 100%;
-  }
-  .container_a_netflix a{
-    
-  }
-  .container_a_netflix a:hover{
-    background-color: transparent;
-    
-  }
-
 
   /*--------------------------------------*/
 
