@@ -42,20 +42,14 @@ nav{
 /*Spoty---------------------------------*/
 
 .ranking{
-  font-size: 40px;
+  font-size: 200%;
   
-}
-.musica_table{
-  
- white-space: nowrap;
 }
 .musica_table tr{
   font-size: 20px;
 }
 .main_musica{
   width: 100%;
-  
-  
 }
 .main_musica table{
   
@@ -64,17 +58,18 @@ nav{
   margin-right: 10%;
 }
 .img_musica{
-  width: 70px;
+  width: 95%;
 }
+
 .img_spotify{
-  width: 50px;
+  width: 45%;
   
 }
+
 
 
 .musica_table a:hover{
-  background-color: #1ed760;
-  
+  background-color: transparent;
 }
 .nav_musicas{
   background: rgb(30,215,96);
@@ -138,7 +133,7 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
   
   .container_info_livro{
     position: relative;
-    padding: 20px;
+    padding: 10px;
     
   }
   .header_info_livro li{
@@ -168,7 +163,7 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
     background-color: rgb(105, 105, 105);
   }
   .footer_info_livro{
-    margin-top: 20px;
+    margin-bottom: 5px;
     
   }
 
@@ -197,14 +192,7 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
     max-width: 20%;
     
   }
-  /*.img_gabriel{
-    position: absolute;
-    margin-right: 0px;
-    
-  }
-  .nav_eu{
-  background-color: rgb(49, 47, 44);
-}
+
 */
 .container_texto_eu{
   
@@ -254,6 +242,10 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
 
 
   /*Séries---------------------------------*/
+  .main_serie{
+    padding: 4%;
+    
+  }
   .header_filmes{
   background-color: rgb(229, 9, 20);
   color: white;
@@ -261,38 +253,62 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
   .nav_series{
     background-color: rgb(117, 33, 33);
 }
- .main_serie html{
-  background-color: #141414;
-  width: 100%;
- }
-  .space_trailer{
-    width: 20px;
-  }
-  
-  .container_all_trailer{
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+ 
+  .all_serie{
+    margin-bottom: 10px;
     display: flex;
-    flex-wrap: wrap;
-    background-color: transparent;
     
   }
-  .container_trailer{
-    background-color: transparent;
+  .container_img_serie{
+    min-width: 200px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .trailer{
-    border-radius: 30px;
+  .img_serie{
     
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  .info_serie{
+    width: 90%;
+    font-size: 100%;
+
   }
   
-  .a_trailer:hover{
-     background-color: transparent;
-      .imagem_trailer{
-       filter: blur()
-     }
-   }
+  ol{
+    padding: 0;
+  }
+
+  .titulo_serie li{
+    list-style: number inside;
+  }
+  .sobre_serie{
+
+  }
+  .container_a_netflix{
+    max-width: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .container_a_netflix a img{
+    
+    width: 100%;
+  }
+  .container_a_netflix a{
+    
+  }
+  .container_a_netflix a:hover{
+    background-color: transparent;
+    
+  }
+
 
   /*--------------------------------------*/
 
