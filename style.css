@@ -23,7 +23,7 @@ a{
     text-decoration:none;
     padding:5px;
     background-color: #dad6d6;
-    border-radius: 20px;
+    border-radius: 14px;
 }
 a:hover{
   background-color: black;
@@ -138,20 +138,15 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
   .nav_livros{
     background-color: #211e37; 
 }
-  .parallax_biblioteca{
-    background-image: url(imagens/360_F_340078556_YD52qpLaiTbO5E0OF90FuOaAq3sZr8yF.jpg);
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
   .main_livro{
     padding: 4%;
   }
   .all_livro{
+    padding: 1%;
     display: flex;
+    border-radius: 10px;
+    background-color: rgb(231, 226, 226);
+    
   }
   .container_img_livro{
     display: flex;
@@ -280,28 +275,6 @@ background: linear-gradient(90deg, rgba(30,215,96,1) 0%, rgba(10,68,21,1) 50%, r
   }
 
   /*--------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /*Não vou mexer*/
   .space{
